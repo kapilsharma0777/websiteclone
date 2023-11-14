@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+.bghero {
+    background-image: url(../src/assets/bghero.avif);
+    background-repeat: no-repeat;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+}    
